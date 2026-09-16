@@ -165,6 +165,8 @@ header {
     display: flex;
     align-items: center;
     gap: 0.35rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .cart-controls button {
@@ -178,6 +180,17 @@ header {
     font-size: 1rem;
     line-height: 1;
     cursor: pointer;
+}
+
+.cart-controls .btn-remove {
+    width: auto;
+    height: auto;
+    padding: 0.2rem 0.45rem;
+    border-color: #f3c9c9;
+    background-color: #fff1f1;
+    color: #c0392b;
+    font-size: 0.7rem;
+    line-height: 1.2;
 }
 
 .cart-controls span {

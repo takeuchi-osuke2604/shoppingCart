@@ -126,6 +126,12 @@ function updateQuantity(id, delta) {
   renderCart();
 }
 
+function removeFromCart(id) {
+  delete cart[id];
+  saveCart();
+  renderCart();
+}
+
 function saveCart() {
   localStorage.setItem('cart', JSON.stringify(cart));
 }
@@ -164,6 +170,7 @@ function renderCart() {
         <button onclick="updateQuantity(${product.id}, -1)">-</button>
         <span>${qty}</span>
         <button onclick="updateQuantity(${product.id}, 1)">+</button>
+        <button class="btn-remove" onclick="removeFromCart(${product.id})">削除</button>
       </div>
     `;
     cartList.appendChild(item);
