@@ -82,6 +82,8 @@ function renderProducts() {
 
   filtered.forEach(p => {
     const isFav = favorites.includes(p.id);
+    const inCartQty = cart[p.id] || 0;
+    const isInCart = inCartQty > 0;
     const card = document.createElement('div');
     card.className = 'product-card';
     card.innerHTML = `
@@ -93,7 +95,9 @@ function renderProducts() {
         </div>
       </div>
       <div class="card-buttons">
-        <button class="btn-add" onclick="addToCart(${p.id})">カートへ</button>
+        <button class="btn-add ${isInCart ? 'in-cart' : ''}" onclick="toggleCart(${p.id})">
+          ${isInCart ? '外す' : '入れる'}
+        </button>
         <button class="btn-fav ${isFav ? 'active' : ''}" onclick="toggleFav(${p.id})">
           ${isFav ? '★' : '☆'}
         </button>
@@ -108,7 +112,16 @@ function addToCart(id) {
   cart[id] = (cart[id] || 0) + 1;
   if (cart[id] > 99) cart[id] = 99;
   saveCart();
+  renderProducts();
   renderCart();
+}
+
+function toggleCart(id) {
+  if (cart[id] && cart[id] > 0) {
+    removeFromCart(id);
+    return;
+  }
+  addToCart(id);
 }
 
 function updateQuantity(id, delta) {
@@ -123,12 +136,14 @@ function updateQuantity(id, delta) {
   }
   
   saveCart();
+  renderProducts();
   renderCart();
 }
 
 function removeFromCart(id) {
   delete cart[id];
   saveCart();
+  renderProducts();
   renderCart();
 }
 
@@ -170,7 +185,6 @@ function renderCart() {
         <button onclick="updateQuantity(${product.id}, -1)">-</button>
         <span>${qty}</span>
         <button onclick="updateQuantity(${product.id}, 1)">+</button>
-        <button class="btn-remove" onclick="removeFromCart(${product.id})">削除</button>
       </div>
     `;
     cartList.appendChild(item);
