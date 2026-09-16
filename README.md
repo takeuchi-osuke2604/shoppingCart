@@ -1,2 +1,0 @@
-# shoppingCart
-ECサイトのカート
