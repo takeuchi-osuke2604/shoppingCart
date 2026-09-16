@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "オーガニックブレンドコーヒー",
+    "price": 1280,
+    "category": "飲料・食品",
+    "image": "https://via.placeholder.com/200/4A2E2B/FFFFFF?text=Coffee"
+  },
+  {
+    "id": 2,
+    "name": "ステンレス保温マグカップ",
+    "price": 980,
+    "category": "キッチン用品",
+    "image": "https://via.placeholder.com/200/708090/FFFFFF?text=Mug"
+  },
+  {
+    "id": 3,
+    "name": "速乾マイクロファイバークロス",
+    "price": 395,
+    "category": "日用品",
+    "image": "https://via.placeholder.com/200/4682B4/FFFFFF?text=Cloth"
+  },
+  {
+    "id": 4,
+    "name": "ナチュラルハンドクリーム",
+    "price": 1500,
+    "category": "コスメ",
+    "image": "https://via.placeholder.com/200/FFB6C1/000000?text=Cream"
+  },
+  {
+    "id": 5,
+    "name": "ワイヤレス薄型マウス",
+    "price": 2480,
+    "category": "家電・PC",
+    "image": "https://via.placeholder.com/200/2F4F4F/FFFFFF?text=Mouse"
+  },
+  {
+    "id": 6,
+    "name": "アロマディフューザー",
+    "price": 3200,
+    "category": "インテリア",
+    "image": "https://via.placeholder.com/200/E6E6FA/000000?text=Diffuser"
+  },
+  {
+    "id": 7,
+    "name": "コットンフェイスタオル",
+    "price": 600,
+    "category": "日用品",
+    "image": "https://via.placeholder.com/200/FAF0E6/000000?text=Towel"
+  },
+  {
+    "id": 8,
+    "name": "USB Type-C ケーブル (1m)",
+    "price": 780,
+    "category": "家電・PC",
+    "image": "https://via.placeholder.com/200/1E90FF/FFFFFF?text=Cable"
+  },
+  {
+    "id": 9,
+    "name": "有機ルイボスティーバッグ",
+    "price": 850,
+    "category": "飲料・食品",
+    "image": "https://via.placeholder.com/200/CD5C5C/FFFFFF?text=Tea"
+  },
+  {
+    "id": 10,
+    "name": "卓上LEDデスクライト",
+    "price": 2980,
+    "category": "インテリア",
+    "image": "https://via.placeholder.com/200/FFD700/000000?text=Light"
+  },
+  {
+    "id": 11,
+    "name": "セラミック包丁 14cm",
+    "price": 1890,
+    "category": "キッチン用品",
+    "image": "https://via.placeholder.com/200/20B2AA/FFFFFF?text=Knife"
+  },
+  {
+    "id": 12,
+    "name": "UVカットリップクリーム",
+    "price": 520,
+    "category": "コスメ",
+    "image": "https://via.placeholder.com/200/DB7093/FFFFFF?text=Lip"
+  }
+]
