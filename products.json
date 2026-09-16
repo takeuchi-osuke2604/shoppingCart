@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "name": "オーガニックブレンドコーヒー",
+    "name": "手作り木製マグカップ",
     "price": 1280,
-    "category": "飲料・食品",
-    "image": "https://via.placeholder.com/200/4A2E2B/FFFFFF?text=Coffee"
+    "category": "食器",
+    "color": "#e0a96d"
   },
   {
     "id": 2,
-    "name": "ステンレス保温マグカップ",
-    "price": 980,
-    "category": "キッチン用品",
-    "image": "https://via.placeholder.com/200/708090/FFFFFF?text=Mug"
+    "name": "リネンコースター",
+    "price": 395,
+    "category": "雑貨",
+    "color": "#abb8c3"
   },
   {
     "id": 3,
-    "name": "速乾マイクロファイバークロス",
-    "price": 395,
-    "category": "日用品",
-    "image": "https://via.placeholder.com/200/4682B4/FFFFFF?text=Cloth"
+    "name": "アロマキャンドル",
+    "price": 980,
+    "category": "雑貨",
+    "color": "#f8c291"
   },
   {
     "id": 4,
-    "name": "ナチュラルハンドクリーム",
+    "name": "オーガニック紅茶セット",
     "price": 1500,
-    "category": "コスメ",
-    "image": "https://via.placeholder.com/200/FFB6C1/000000?text=Cream"
+    "category": "食品",
+    "color": "#e15f41"
   },
   {
     "id": 5,
-    "name": "ワイヤレス薄型マウス",
-    "price": 2480,
-    "category": "家電・PC",
-    "image": "https://via.placeholder.com/200/2F4F4F/FFFFFF?text=Mouse"
+    "name": "ガラスの一輪挿し",
+    "price": 2200,
+    "category": "インテリア",
+    "color": "#78e08f"
   },
   {
     "id": 6,
-    "name": "アロマディフューザー",
-    "price": 3200,
-    "category": "インテリア",
-    "image": "https://via.placeholder.com/200/E6E6FA/000000?text=Diffuser"
+    "name": "手編みウールスリッパ",
+    "price": 3400,
+    "category": "ファッション",
+    "color": "#60a3bc"
   },
   {
     "id": 7,
-    "name": "コットンフェイスタオル",
-    "price": 600,
-    "category": "日用品",
-    "image": "https://via.placeholder.com/200/FAF0E6/000000?text=Towel"
+    "name": "手拭い（花柄）",
+    "price": 850,
+    "category": "雑貨",
+    "color": "#f6b93b"
   },
   {
     "id": 8,
-    "name": "USB Type-C ケーブル (1m)",
-    "price": 780,
-    "category": "家電・PC",
-    "image": "https://via.placeholder.com/200/1E90FF/FFFFFF?text=Cable"
+    "name": "陶器の豆皿",
+    "price": 600,
+    "category": "食器",
+    "color": "#b8e994"
   },
   {
     "id": 9,
-    "name": "有機ルイボスティーバッグ",
-    "price": 850,
-    "category": "飲料・食品",
-    "image": "https://via.placeholder.com/200/CD5C5C/FFFFFF?text=Tea"
+    "name": "ハーブティーバッグ",
+    "price": 780,
+    "category": "食品",
+    "color": "#fa983a"
   },
   {
     "id": 10,
-    "name": "卓上LEDデスクライト",
-    "price": 2980,
+    "name": "ミニ観葉植物",
+    "price": 1800,
     "category": "インテリア",
-    "image": "https://via.placeholder.com/200/FFD700/000000?text=Light"
+    "color": "#38ada9"
   },
   {
     "id": 11,
-    "name": "セラミック包丁 14cm",
-    "price": 1890,
-    "category": "キッチン用品",
-    "image": "https://via.placeholder.com/200/20B2AA/FFFFFF?text=Knife"
+    "name": "真鍮のブックマーク",
+    "price": 1100,
+    "category": "雑貨",
+    "color": "#f1c40f"
   },
   {
     "id": 12,
-    "name": "UVカットリップクリーム",
-    "price": 520,
-    "category": "コスメ",
-    "image": "https://via.placeholder.com/200/DB7093/FFFFFF?text=Lip"
+    "name": "手彫りの木製スプーン",
+    "price": 750,
+    "category": "食器",
+    "color": "#d35400"
   }
 ]

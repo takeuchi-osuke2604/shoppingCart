@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store</title>
-    <!-- CSSファイルの読み込み -->
+    <title>小さなお店 - 手作り雑貨</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- ヘッダー -->
     <header>
-        <div class="header-inner">
-            <div class="logo"><a href="#">MY STORE</a></div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#" id="cart-count">Cart (0)</a></li>
-            </ul>
-        </div>
+        <h1>小さなお店</h1>
     </header>
+    <main class="container">
+        <div class="main-content">
+            <section class="controls">
+                <label for="category-select">カテゴリ絞り込み：</label>
+                <select id="category-select">
+                    <option value="all">すべて</option>
+                </select>
 
-    <!-- メインコンテンツ -->
-    <div class="container">
-        <h1 class="section-title">New Arrivals</h1>
+                <div class="tab-buttons">
+                    <button id="tab-all" class="active">商品一覧</button>
+                    <button id="tab-fav">お気に入り一覧</button>
+                </div>
+            </section>
+            <section id="product-list" class="product-grid"></section>
+        </div>
 
-        <!-- JSでここに商品を差し込む -->
-        <div class="product-grid" id="product-grid"></div>
-    </div>
-
-    <!-- JSファイルの読み込み -->
-    
+        <aside class="sidebar">
+            <h2>ショッピングカート</h2>
+            <div id="cart-list"></div>
+            <div class="cart-summary">
+                <p>税抜き合計: <span id="total-excl">0</span>円</p>
+                <p class="total-price">税込み合計: <span id="total-incl">0</span>円</p>
+            </div>
+        </aside>
+    </main>
+    <script src="app.js"></script>
 </body>
-
 </html>
