@@ -161,6 +161,7 @@ function renderCart() {
   if (itemIds.length === 0) {
     cartList.innerHTML = '<p class="empty-msg">カートは空です</p>';
     document.getElementById('total-excl').textContent = '0';
+    document.getElementById('tax').textContent = '0';
     document.getElementById('total-incl').textContent = '0';
     return;
   }
@@ -190,10 +191,11 @@ function renderCart() {
     cartList.appendChild(item);
   });
 
-  // 端数切り捨て計算[cite: 1]
-  const totalIncl = Math.floor(totalExcl * 1.1);
+  const tax = Math.floor(totalExcl * 0.1);
+  const totalIncl = totalExcl + tax;
 
   document.getElementById('total-excl').textContent = totalExcl.toLocaleString();
+  document.getElementById('tax').textContent = tax.toLocaleString();
   document.getElementById('total-incl').textContent = totalIncl.toLocaleString();
 }
 

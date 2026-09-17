@@ -215,6 +215,30 @@ header {
     color: #555;
 }
 
+.cart-summary p {
+    margin-bottom: 0.35rem;
+}
+
+#tax {
+    display: inline-block;
+    padding-bottom: 0.1rem;
+}
+
+.cart-summary .total-price {
+    position: relative;
+    margin-top: 0.8rem;
+    padding-top: 0.6rem;
+}
+
+.cart-summary .total-price::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-top: 1px solid #666;
+}
+
 .total-price {
     font-size: 1.1rem;
     font-weight: bold;
