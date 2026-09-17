@@ -96,7 +96,7 @@ function renderProducts() {
       </div>
       <div class="card-buttons">
         <button class="btn-add ${isInCart ? 'in-cart' : ''}" onclick="toggleCart(${p.id})">
-          ${isInCart ? '外す' : '入れる'}
+          ${isInCart ? 'カートから外す' : 'カートに入れる'}
         </button>
         <button class="btn-fav ${isFav ? 'active' : ''}" onclick="toggleFav(${p.id})">
           ${isFav ? '★' : '☆'}
