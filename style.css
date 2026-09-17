@@ -113,7 +113,7 @@ header {
 
 .product-info .price {
     font-weight: bold;
-    color: #e53935;
+    color: #ef6a68;
     margin-bottom: 0.5rem;
 }
 
@@ -212,12 +212,13 @@ header {
     padding-top: 0.5rem;
     border-top: 2px solid #333;
     text-align: right;
+    color: #555;
 }
 
 .total-price {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #e53935;
+    color: #ff0d00;
 }
 
 .empty-msg {
